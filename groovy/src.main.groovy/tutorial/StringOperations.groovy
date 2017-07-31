@@ -57,11 +57,11 @@ class StringOperations {
         println(repeatStr - "What");
 
         // Split the string
-        println(repeatStr.split(' '));
-        println(repeatStr.toList());
-
+        println(repeatStr.split(' '))
+        println(repeatStr.toList())
+        
         // Replace all strings
-        println(repeatStr.replaceAll('I', 'she'));
+        println(repeatStr.replaceAll('I', 'she'))
 
         // Uppercase and lowercase
         println("Uppercase " + name.toUpperCase());
