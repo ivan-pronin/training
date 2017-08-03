@@ -1,6 +1,6 @@
 package business
 
-class Vendor {
+class business {
     public String name
     public String product
     public Address address = new Address()
