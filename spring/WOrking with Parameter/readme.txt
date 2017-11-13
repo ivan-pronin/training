@@ -1,0 +1,1 @@
+java -jar -DdriverPath=D:\chromedriver.exe gs-serving-web-content-0.1.0.jar
