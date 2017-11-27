@@ -8,9 +8,22 @@
 /bin/
 /output/
 /build/
+/out/
 
 #Ignore non-project files
 *.log
 *.7z
 *.txt
 *.xls*
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IDEA
+.idea/
+*.iws
+*.ipr
+*.iml
