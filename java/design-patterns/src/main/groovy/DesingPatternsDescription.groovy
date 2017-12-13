@@ -15,4 +15,10 @@ class DesingPatternsDescription {
      * all of its dependants are notified and updated automatically
      */
     void observer() {}
+
+    /**
+     * Attach additional responsibilities to an object dynamically. Decorators provide a flexible
+     * alternative to subclassing for extending functionality
+     */
+    void decorator() {}
 }
