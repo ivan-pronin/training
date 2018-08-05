@@ -1,6 +1,7 @@
 package structural.adapter.my;
 
 import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.List;
 import java.util.Map;
 
@@ -21,6 +22,17 @@ public class DataPrinter implements IDataPrinter
         {
             printFormattedValue(value);
         }
+        Enumeration<String> ee = new Enumeration<String>() {
+            @Override
+            public boolean hasMoreElements() {
+                return false;
+            }
+
+            @Override
+            public String nextElement() {
+                return null;
+            }
+        };
         System.out.println();
 
         copiedData.forEach(map ->

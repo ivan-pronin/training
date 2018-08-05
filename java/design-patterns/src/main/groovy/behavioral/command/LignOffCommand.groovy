@@ -5,7 +5,7 @@ class LignOffCommand implements Command {
     Light receiver
 
     public LignOffCommand(Light receiver) {
-        this.receiver = receiver;
+        this.receiver = receiver
     }
 
     @Override

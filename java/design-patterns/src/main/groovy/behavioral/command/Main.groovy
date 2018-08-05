@@ -9,7 +9,7 @@ class Main {
             new LignOnCommand(lamp),
             new LignOffCommand(lamp)
         ]
-        final Switch mySwitch = new Switch();
+        final Switch mySwitch = new Switch()
 
         mySwitch.storeAndExecute(commands[new Random().nextInt(2)])
     }
