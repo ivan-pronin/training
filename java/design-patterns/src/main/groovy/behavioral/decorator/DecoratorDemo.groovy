@@ -1,6 +1,6 @@
 package behavioral.decorator
 
-class Main {
+class DecoratorDemo {
 
     static void printInfo(Coffee c) {
         System.out.println("Cost: " + c.getCost() + "; Ingredients: " + c.getIngredients())

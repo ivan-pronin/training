@@ -4,7 +4,7 @@ package behavioral.observer.custom
  *
  * Created by ivanp on 27.11.2017
  */
-class WeatherStation {
+class ObserverDemo {
 
     static void main(String ... args)
     {

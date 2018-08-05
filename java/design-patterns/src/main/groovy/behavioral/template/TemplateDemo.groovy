@@ -1,6 +1,6 @@
 package behavioral.template
 
-class Main {
+class TemplateDemo {
 
     static void main(String[] args)
     {

@@ -1,6 +1,6 @@
 package structural.composite
 
-class MenuItem extends structural.composite.MenuComponent {
+class MenuItem extends MenuComponent {
 
     String name
     double price

@@ -1,6 +1,6 @@
 package creational.abstractFactory
 
-class Main {
+class AbstractFactoryDemo {
 
     static main(args) {
         IGUIFactory factory = null;

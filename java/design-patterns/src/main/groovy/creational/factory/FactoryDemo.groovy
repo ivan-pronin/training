@@ -1,6 +1,6 @@
 package creational.factory
 
-class MainPizza {
+class FactoryDemo {
 
     static main(args) {
         PizzaStore italiano = new ItalianoPizzaStore()

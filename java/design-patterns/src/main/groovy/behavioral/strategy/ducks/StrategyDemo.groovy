@@ -1,6 +1,6 @@
 package behavioral.strategy.ducks
 
-class DucksDemo {
+class StrategyDemo {
 
     static void main(String ... args) {
         Duck d = new Duck()

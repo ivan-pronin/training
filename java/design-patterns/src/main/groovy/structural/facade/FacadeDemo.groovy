@@ -1,6 +1,6 @@
 package structural.facade
 
-class Main {
+class FacadeDemo {
 
     static void main(String[] args) {
         Computer computer = new Computer()

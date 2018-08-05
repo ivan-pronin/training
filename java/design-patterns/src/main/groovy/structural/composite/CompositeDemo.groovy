@@ -1,6 +1,6 @@
 package structural.composite
 
-class Main {
+class CompositeDemo {
 
     static void main(String[] args) {
         MenuComponent mainMenu = new Menu('Main', 'main menu')

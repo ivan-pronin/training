@@ -1,6 +1,6 @@
 package structural.composite
 
-class Menu extends structural.composite.MenuComponent {
+class Menu extends MenuComponent {
 
     List<MenuComponent> menuComponents = new ArrayList<>()
     String name
